@@ -1,21 +1,3 @@
-// function multiple(n){
-//     let smallest = 1;
-//     let isFound = false;
-//     while(isFound = false){
-//         let arr = [];
-//         for(let i = 1; i <= n; i++){
-//             if(smallest % i == 0){
-//                 arr.push(i)
-//             }
-//         }
-//         if(arr.length == n){
-//             console.log(arr);
-//             isFound = true;
-//             return smallest;
-//         }
-//         smallest++;
-//     }
-// }
 
 function lcm(a, b) {
     return (a * b) / gcd(a, b);
